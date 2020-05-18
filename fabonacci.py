@@ -1,4 +1,5 @@
 from datetime import datetime
+import random
 
 print("Current date and Time",datetime.now().strftime("%A, %d %B %Y"))
 
@@ -22,3 +23,4 @@ for x in range(1,8,1):
 for i in range(len(list1)):
     print("Array Index No:", i , "Fabonacci No:", list1[i])
 
+print("Random no :",random.randrange(1,10))
