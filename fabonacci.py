@@ -1,7 +1,9 @@
 from datetime import datetime
 import random
 
+print("----------------")
 print("Current date and Time",datetime.now().strftime("%A, %d %B %Y"))
+print("----------------")
 
 list1=[]
 a=0
